@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koede — サポート</title>
+<style>
+  :root { --accent:#30b0c7; --fg:#1c1c1e; --muted:#6c6c70; --bg:#f2f2f7; --card:#fff; --line:rgba(0,0,0,.08); }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#f2f2f7; --muted:#98989d; --bg:#000; --card:#1c1c1e; --line:rgba(255,255,255,.12); }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:0 20px 64px; background:var(--bg); color:var(--fg);
+         font:16px/1.75 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
+  .wrap { max-width:680px; margin:0 auto; }
+  header { padding:56px 0 32px; }
+  h1 { font-size:34px; margin:0 0 6px; letter-spacing:-.02em; }
+  .tag { color:var(--muted); font-size:17px; margin:0; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:18px;
+            padding:22px 24px; margin:0 0 18px; }
+  h2 { font-size:20px; margin:0 0 12px; }
+  h3 { font-size:16px; margin:20px 0 6px; }
+  p, li { color:var(--fg); }
+  ul { padding-left:1.2em; margin:8px 0; }
+  a { color:var(--accent); }
+  .muted { color:var(--muted); font-size:14px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding-top:28px; }
+  nav a { display:inline-block; margin-right:16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Koede</h1>
+    <p class="tag">声でサッとタスク管理</p>
+  </header>
+
+  <section>
+    <h2>Koede について</h2>
+    <p>Koede は、思いついた瞬間にタスクを追加できるシンプルな iPhone 用タスク管理アプリです。マイクに話しかけるか、右下のボタンから文字入力で追加できます。</p>
+    <ul>
+      <li>音声入力でタスクを追加</li>
+      <li>「今日中」「日時指定」でワンタップ期限設定</li>
+      <li>期限ごとの自動グループ表示</li>
+      <li>期限が近づくと通知でお知らせ</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>よくある質問</h2>
+
+    <h3>音声入力が反応しません</h3>
+    <p>iOS の「設定」→「Koede」で、<b>マイク</b>と<b>音声認識</b>の両方が許可されているかご確認ください。音声認識は Apple のサービスを利用するため、通信環境によっては変換に時間がかかることがあります。</p>
+
+    <h3>通知が届きません</h3>
+    <p>「設定」→「Koede」→「通知」で通知が許可されているかご確認ください。通知は期限を設定したタスクにのみ送信されます。</p>
+
+    <h3>データはどこに保存されますか</h3>
+    <p>タスクは端末内にのみ保存されます。サーバーへの送信や外部への共有は行いません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+    <h3>機種変更するとデータはどうなりますか</h3>
+    <p>データは端末内に保存されているため、iCloud バックアップから復元した場合を除き、引き継がれません。</p>
+
+    <h3>完了したタスクをまとめて消したい</h3>
+    <p>画面右上の「⋮」→「完了済みをすべて削除」から一括削除できます。</p>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>ご質問・不具合のご報告はこちらまでお願いします。</p>
+    <p><a href="mailto:tsuyoshi.hamanaka@gmail.com">tsuyoshi.hamanaka@gmail.com</a></p>
+    <p class="muted">お使いの iOS のバージョンと、症状が起きたときの操作手順を添えていただけると調査がスムーズです。</p>
+  </section>
+
+  <nav><a href="privacy.html">プライバシーポリシー</a></nav>
+  <footer>© 2026 Tsuyoshi Hamanaka</footer>
+</div>
+</body>
+</html>
